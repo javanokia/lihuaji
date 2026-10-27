@@ -1,0 +1,459 @@
+{
+  "title": "梨花季 Cleveland Museum of Art 祥云候选清单",
+  "version": 1,
+  "sourcePlatform": "Cleveland Museum of Art",
+  "targetCount": 50,
+  "importantNote": "此处为拟提取的50个云纹候选，不是50张已裁切或已CC0核验的图片。须逐项通过馆方API校验授权、原图、可裁切性后方可入库。",
+  "candidates": [
+    {
+      "candidateId": "cleveland-cloud-001",
+      "accessionNumber": "1994.292",
+      "projectTitle": "金代云凤锦·左侧卷云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1994.292",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1994.292",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-002",
+      "accessionNumber": "1994.292",
+      "projectTitle": "金代云凤锦·另一组回旋云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1994.292",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1994.292",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-003",
+      "accessionNumber": "1991.4",
+      "projectTitle": "金代望月锦·托月云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1991.4",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1991.4",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-004",
+      "accessionNumber": "1995.20",
+      "projectTitle": "辽代凤云绣袍·肩侧云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1995.20",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1995.20",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-005",
+      "accessionNumber": "1995.20",
+      "projectTitle": "辽代凤云绣袍·背部云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1995.20",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1995.20",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-006",
+      "accessionNumber": "1916.1335",
+      "projectTitle": "清代深蓝龙袍·细碎云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1916.1335",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1916.1335",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-007",
+      "accessionNumber": "1916.1335",
+      "projectTitle": "清代深蓝龙袍·下缘卷云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1916.1335",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1916.1335",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-008",
+      "accessionNumber": "1916.1331",
+      "projectTitle": "清代棕金龙袍·蓝流云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1916.1331",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1916.1331",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-009",
+      "accessionNumber": "1916.1331",
+      "projectTitle": "清代棕金龙袍·暖色祥云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1916.1331",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1916.1331",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-010",
+      "accessionNumber": "1915.622",
+      "projectTitle": "孔雀羽龙袍·青蓝云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1915.622",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1915.622",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-011",
+      "accessionNumber": "1915.622",
+      "projectTitle": "孔雀羽龙袍·赤金云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1915.622",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1915.622",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-012",
+      "accessionNumber": "1983.32",
+      "projectTitle": "清代黄色吉服·蓝色卷云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1983.32",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1983.32",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-013",
+      "accessionNumber": "1983.32",
+      "projectTitle": "清代黄色吉服·斜向流云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1983.32",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1983.32",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-014",
+      "accessionNumber": "1948.69",
+      "projectTitle": "乾隆鹤补·日轮云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1948.69",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1948.69",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-015",
+      "accessionNumber": "1948.69",
+      "projectTitle": "乾隆鹤补·侧边卷云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1948.69",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1948.69",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-016",
+      "accessionNumber": "1948.70",
+      "projectTitle": "乾隆鹤补·蓝色流云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1948.70",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1948.70",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-017",
+      "accessionNumber": "1948.70",
+      "projectTitle": "乾隆鹤补·红黄卷云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1948.70",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1948.70",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-018",
+      "accessionNumber": "1948.71",
+      "projectTitle": "乾隆狮补·狮侧卷云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1948.71",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1948.71",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-019",
+      "accessionNumber": "1948.71",
+      "projectTitle": "乾隆狮补·角落彩云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1948.71",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1948.71",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-020",
+      "accessionNumber": "1948.72",
+      "projectTitle": "乾隆獬豸补·上扬云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1948.72",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1948.72",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-021",
+      "accessionNumber": "1948.72",
+      "projectTitle": "乾隆獬豸补·日旁团云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1948.72",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1948.72",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-022",
+      "accessionNumber": "1916.1329",
+      "projectTitle": "清代缂丝补子·青蓝团云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1916.1329",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1916.1329",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-023",
+      "accessionNumber": "1916.1329",
+      "projectTitle": "清代缂丝补子·金边短云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1916.1329",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1916.1329",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-024",
+      "accessionNumber": "1916.1330",
+      "projectTitle": "清代缂丝补子·日旁长云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1916.1330",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1916.1330",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-025",
+      "accessionNumber": "1916.1330",
+      "projectTitle": "清代缂丝补子·深色小云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1916.1330",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1916.1330",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-026",
+      "accessionNumber": "1916.1336",
+      "projectTitle": "清代龙袍残片·蓝色横云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1916.1336",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1916.1336",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-027",
+      "accessionNumber": "1916.1336",
+      "projectTitle": "清代龙袍残片·短尾小云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1916.1336",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1916.1336",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-028",
+      "accessionNumber": "2005.135.1",
+      "projectTitle": "清代嫁衣·多色祥云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/2005.135.1",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/2005.135.1",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-029",
+      "accessionNumber": "2005.135.1",
+      "projectTitle": "清代嫁衣·双卷云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/2005.135.1",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/2005.135.1",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-030",
+      "accessionNumber": "2005.135.3",
+      "projectTitle": "清代嫁衣披褂·金丝云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/2005.135.3",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/2005.135.3",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-031",
+      "accessionNumber": "2005.135.3",
+      "projectTitle": "清代嫁衣披褂·侧边卷云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/2005.135.3",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/2005.135.3",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-032",
+      "accessionNumber": "1920.1897",
+      "projectTitle": "十八世纪织锦·紧凑云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1920.1897",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1920.1897",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-033",
+      "accessionNumber": "1920.1897",
+      "projectTitle": "十八世纪织锦·横向云带",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1920.1897",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1920.1897",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-034",
+      "accessionNumber": "1920.762",
+      "projectTitle": "清代黄地织锦·竖向云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1920.762",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1920.762",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-035",
+      "accessionNumber": "1920.762",
+      "projectTitle": "清代黄地织锦·次级卷云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1920.762",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1920.762",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-036",
+      "accessionNumber": "1976.1087",
+      "projectTitle": "江南御织龙云锦·金色弧云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1976.1087",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1976.1087",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-037",
+      "accessionNumber": "1976.1087",
+      "projectTitle": "江南御织龙云锦·长段云带",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1976.1087",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1976.1087",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-038",
+      "accessionNumber": "1956.312",
+      "projectTitle": "中国绣方·边饰卷云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1956.312",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1956.312",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-039",
+      "accessionNumber": "1956.312",
+      "projectTitle": "中国绣方·转角云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1956.312",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1956.312",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-040",
+      "accessionNumber": "1920.1653",
+      "projectTitle": "清代织物残片·黄色旋云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1920.1653",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1920.1653",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-041",
+      "accessionNumber": "1920.1653",
+      "projectTitle": "清代织物残片·另一侧曲云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1920.1653",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1920.1653",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-042",
+      "accessionNumber": "1920.1556",
+      "projectTitle": "清代鹤云织锦·彩色卷云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1920.1556",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1920.1556",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-043",
+      "accessionNumber": "1920.1556",
+      "projectTitle": "清代鹤云织锦·散朵云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1920.1556",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1920.1556",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-044",
+      "accessionNumber": "1993.158.1",
+      "projectTitle": "辽代缂丝绣靴·蓝绿回旋云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1993.158.1",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1993.158.1",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-045",
+      "accessionNumber": "1993.158.1",
+      "projectTitle": "辽代缂丝绣靴·另一侧曲云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1993.158.1",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1993.158.1",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-046",
+      "accessionNumber": "1993.158.2",
+      "projectTitle": "辽代缂丝绣靴·浅蓝长云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1993.158.2",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1993.158.2",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-047",
+      "accessionNumber": "1993.158.2",
+      "projectTitle": "辽代缂丝绣靴·金色小云",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1993.158.2",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1993.158.2",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-048",
+      "accessionNumber": "2003.88",
+      "projectTitle": "宋代青白瓷云枕·如意外轮廓",
+      "officialObjectUrl": "https://www.clevelandart.org/art/2003.88",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/2003.88",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-049",
+      "accessionNumber": "2003.88",
+      "projectTitle": "宋代青白瓷云枕·分层云头",
+      "officialObjectUrl": "https://www.clevelandart.org/art/2003.88",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/2003.88",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    },
+    {
+      "candidateId": "cleveland-cloud-050",
+      "accessionNumber": "1993.10",
+      "projectTitle": "元明云肩绣片·云瓣外形",
+      "officialObjectUrl": "https://www.clevelandart.org/art/1993.10",
+      "apiUrl": "https://openaccess-api.clevelandart.org/api/artworks/1993.10",
+      "cropRectNormalized": null,
+      "approvedForLibrary": false
+    }
+  ]
+}

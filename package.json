@@ -1,0 +1,27 @@
+{
+  "name": "lihuaji-cultural-showcase",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/normalize-patterns.mjs && node scripts/seed-database.mjs && node scripts/build.mjs",
+    "export:assets": "node scripts/package-assets-repo.mjs",
+    "db:normalize": "node scripts/normalize-patterns.mjs && node scripts/seed-database.mjs",
+    "test": "node --test scripts/ar-state.test.cjs scripts/story.test.cjs scripts/library.test.cjs scripts/met-clouds.test.cjs scripts/suxiu.test.cjs scripts/stitch.test.cjs scripts/stitch-course.test.cjs scripts/digital-tools.test.cjs scripts/learning-paths.test.cjs scripts/santao-cinematic.test.cjs scripts/ar-santao.test.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5",
+    "vite-plugin-pwa": "^2.0.0"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  }
+}

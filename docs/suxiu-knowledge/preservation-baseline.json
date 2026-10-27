@@ -1,0 +1,176 @@
+{
+  "baseCommit": "f290c5e6c110c57013f5ce741f87f8d62d160e35",
+  "sha256": {
+    "index.html": "351c99aa7c7a0a92613dbff02aba803575b3f25e526fa254ff3f8515f855219a",
+    "style.css": "cd8cd6d3c8afa70b286b274beaf1224be18b2bbde7ea17bb89d195031188c250",
+    "pages.css": "01eea19b083861cba7196d6a71d964d6c9d70e90d9a97bfb1d692762876383c2",
+    "assets/ui.js": "322c7387ebbacf38533cafbdb65c571043451d90724a359cdd478c2affebccb6",
+    "assets/exhibition.js": "d3af71c76f1632ce1c2b790d30a5b87e774a3d5db08c0dd3ccd02c668fed73e8",
+    "assets/knowledge.js": "4667f04f6db961f5439a0bce2624a3af92c527cee2fe6fa0bbc56670768599c2",
+    "assets/knowledge-retriever.js": "47b4baef76efaa3cbc74089ce962f653c69d75d62f2abdcdc75a4a2b82fbd481",
+    "scripts/build-cultural-knowledge.cjs": "8bfb22c1b0a8f6d7cf08dbc228d64777fcb9290d2a55b07efd584bce3147e035",
+    "content/cultural-knowledge.json": "fb562c1426a559486a8e359edc98f1b1b6e6d0ed72e74832a6cd9910cd299d0f",
+    "content/sources.json": "46fd1dfb078789d48606d4ce0e4b1978814f355b77056ab5be70048eb14df0bd",
+    "content/patterns.json": "5a9f5ab2a3471d46a0822bfdd2c1a4fe35ff90fde18c00e85a732671e298c922",
+    "content/products.json": "5bdfd2464b14965bf25e3a6b40e02a1a3e75ab917d90582e47fafd9db5e0a1c8",
+    "assets/ar-experience.css": "5bd8b0fb0bb9d66f04e06363ad05ad69758b07dfe2bf5675e7767ba8b00a0a8a",
+    "assets/ar-experience.html": "2e4b035ab0acdd6f6e85e0032746cf13d362d0d8d1b24c3fe0daf1334a66136c",
+    "assets/ar-experience.js": "78baf5f5120ecb402e918fbb0b8e423cdaadf8e3623edfcbb6bfebb9c177489a",
+    "assets/ar/CraftOverlay.js": "6c077328b82677f02c15d6fc903b0e12add7ca13b1b137dc9b20e68da5b534b0",
+    "assets/ar/LayeredPattern.js": "8b35123fc513082cc8de94f1e30b177025285b372875b34e58abb8a134dad479",
+    "assets/ar/svg-layers.js": "96203d27732a6494019c9e9502bfd35f22d2998f94db4a3c1669cdf0331face5",
+    "assets/ar/TrackingState.js": "ebdb64ad18b52b66d53ac2ad3e41944e705562625d62dfc8dd5f7d54630e420d",
+    "assets/ar/Tween.js": "f67fbb2d40076fca57641d10755d0aaad5dad0f9647c21d38310322655802376",
+    "assets/ar-assets/lotus.png": "f8b2ba36d553bae2c214073eca78ef0cf6da05a4b6c051aa84fad92ba0324e59",
+    "assets/ar-assets/product.jpg": "ed21581df7847e310accabdea6613ba8fc46f3bbdb103418414b65e85ba02029",
+    "assets/ar-assets/targets.json": "9c358497bbe74a087cb80f0164699643aff8b639adbfe65277ef76f1e7bb64ab",
+    "assets/ar-assets/targets.mind": "2175ef5b25128e8afe1577c49073ed8c4735b71c1db56453003e5e96a2385e1b",
+    "assets/ar-assets/markers/pear-blossom.png": "087815b801de68764102d8fa9338016fa6fbfd551ef8767289e1772d83bba8ce",
+    "assets/ar-assets/layers/pear-blossom/layer_00_base.png": "53025246fd2fea42e1e26b6447d423b84256b061b68c79839b587749bf40c351",
+    "assets/ar-assets/layers/pear-blossom/layer_00_base.svg": "42c0637888b22f5e0a7d20166993b68efa9a480437a7fc5ca4a8495eaddb2420",
+    "assets/ar-assets/layers/pear-blossom/layer_01_branch.png": "3c3ce10326cca76075895e009e8e51ad7a4cce5098b54fd29acb5a12ce57265a",
+    "assets/ar-assets/layers/pear-blossom/layer_01_branch.svg": "09cda037992bee1edc084483e9a6ff4a857a6f2d56fe770e85e45fcd5fdc4c85",
+    "assets/ar-assets/layers/pear-blossom/layer_02_leaf.png": "bb6a833706f135443026e78685ac84974867660a821132067c1aa87b500c7371",
+    "assets/ar-assets/layers/pear-blossom/layer_02_leaf.svg": "e580e5134e4ef26b72f186c71e88dddb7c08807f21d72da00c44b45e5d783b7a",
+    "assets/ar-assets/layers/pear-blossom/layer_03_petals_back.png": "81c1994234fddeba4c59e86f33e678e90c15d859f16d7aa010cec9e04935f6dc",
+    "assets/ar-assets/layers/pear-blossom/layer_03_petals_back.svg": "5319c71b2c90842b227732cdf01edec71e98d5835f4aab6f435f5f7d40c42be5",
+    "assets/ar-assets/layers/pear-blossom/layer_04_petals_front.png": "79beb5706e0f6fb39089205ee773588190261ed63bc872b1dddc9292b3d6ca7c",
+    "assets/ar-assets/layers/pear-blossom/layer_04_petals_front.svg": "170a2af81a7e013b2a8ea25a937d2e29ac7841986131d091d23297e954b3c791",
+    "assets/ar-assets/layers/pear-blossom/layer_05_stamen.png": "61ee51e3d834c24d2577ac63543d39afe67a33cf777b6440686cdd20d3bd8199",
+    "assets/ar-assets/layers/pear-blossom/layer_05_stamen.svg": "cda5778b8cd38623a2448fae5625d43b4bcfbbb48657a9a7126ede4c30052fbc",
+    "assets/ar-assets/layers/pear-blossom/README.md": "face3b2f85f3c9d5cc04a0981e3a72cce5bf539d05217e011402737ad4877148"
+  },
+  "normalizedTextExtensions": [
+    ".html",
+    ".css",
+    ".js",
+    ".json",
+    ".cjs",
+    ".svg",
+    ".md"
+  ],
+  "authorizedARRevision": {
+    "baseCommit": "7abab4c37a0712790e944a2c5bef3a509f6db038",
+    "reason": "Requested Santao AR V2 integration; all other frozen files retain original hashes.",
+    "files": [
+      {
+        "file": "assets/ar-experience.css",
+        "previousSha256": "3cdf7043605b4ece7efa04182e4740f994f7619a3033652f7eda70c4617a0496",
+        "sha256": "5bd8b0fb0bb9d66f04e06363ad05ad69758b07dfe2bf5675e7767ba8b00a0a8a"
+      },
+      {
+        "file": "assets/ar-experience.html",
+        "previousSha256": "a0aeaa62ca00d1d3a24f29b175bf14611a0be05531cf75c7d5596497a1f58a2f",
+        "sha256": "4de0cd0a9865c6ab5919e019c6cee2c5d6161f3870df8711a23cfc024b6a7539"
+      },
+      {
+        "file": "assets/ar-experience.js",
+        "previousSha256": "d240a05b7bf4e09269bb55800d56b5db932b82ec4e41a312ab1d770589713d00",
+        "sha256": "2dc05fdfe49727c03062b05d488cd4fc294df05d11ae9703ac4e815d1e75995e"
+      },
+      {
+        "file": "assets/ar/CraftOverlay.js",
+        "previousSha256": "e4941155328e34cf2f620b2fe1c55b5da29fa036a901f8f17830499339c78a47",
+        "sha256": "6c077328b82677f02c15d6fc903b0e12add7ca13b1b137dc9b20e68da5b534b0"
+      },
+      {
+        "file": "assets/ar/LayeredPattern.js",
+        "previousSha256": "7925fe56a0bdf7c66b5f522690e4a22dc8560a959c601f31f20db757f4ac02d3",
+        "sha256": "146a91ac1ae05f05c485653aa6b7e69f3cc23c0130b89ba75162be62a0832038"
+      },
+      {
+        "file": "assets/ar-assets/targets.json",
+        "previousSha256": "764fb02670f9691ca3f4dff4d0e4b77735cc7863735be4d73f691a619e3c784b",
+        "sha256": "f7e8ba023694728b1d2e9f74ad6ec2153bb235a694e056d27346ea9facfb9ba4"
+      }
+    ]
+  },
+  "authorizedARFollowupRevision": {
+    "baseCommit": "998b523",
+    "reason": "Add four user-authorized single-pattern AR examples while keeping the existing layout and Santao pear experience.",
+    "files": [
+      {
+        "file": "assets/ar-experience.js",
+        "previousSha256": "2dc05fdfe49727c03062b05d488cd4fc294df05d11ae9703ac4e815d1e75995e",
+        "sha256": "fdceb55a5b80e4f948bdf0dcadd03c1abc64a53146fff6b1b10d23d4930d4c45"
+      },
+      {
+        "file": "assets/ar/LayeredPattern.js",
+        "previousSha256": "146a91ac1ae05f05c485653aa6b7e69f3cc23c0130b89ba75162be62a0832038",
+        "sha256": "ea81e8693bb099a50145c2eed9d7cb7b69f3b6957afcb04b4152911faf5abe38"
+      },
+      {
+        "file": "assets/ar-assets/targets.json",
+        "previousSha256": "f7e8ba023694728b1d2e9f74ad6ec2153bb235a694e056d27346ea9facfb9ba4",
+        "sha256": "4c9e1e9db084321f9f85c03576abb9cddc9fb4cf92c24f016669993773e6a638"
+      },
+      {
+        "file": "assets/ar-assets/targets.mind",
+        "previousSha256": "4f1d11dcc9d3b07dbe66092f7e94e4ab2b04595eba0310b898f621ab3875c1b8",
+        "sha256": "2175ef5b25128e8afe1577c49073ed8c4735b71c1db56453003e5e96a2385e1b"
+      }
+    ]
+  },
+  "authorizedARLayeredRevision": {
+    "baseCommit": "0f84df52e2e8ae4dd76fd63f166c20509c4c2652",
+    "reason": "User clarified six AR layers must remain aligned on one central axis and move only along it, without lateral spread or individual twist; retained fixed oblique preview for depth visibility.",
+    "files": [
+      {
+        "file": "assets/ar-experience.html",
+        "previousSha256": "003dfc38f46c8fd40498274a68e0b79fc45bf416e8f2a33240afe787d1436f32",
+        "sha256": "be579523f2c447d8cc95a8ea0637f8f3d3a0b86297bcf91814cab26813ed9103"
+      },
+      {
+        "file": "assets/ar-experience.js",
+        "previousSha256": "d879a5f3e3e98484fc109f82f6220b1495ec659cc24b71a0c13421cfa531bc9e",
+        "sha256": "5ff470c50c4d49995867dbcdeeedc1703e3f33af6951b77bcee0da3f51ef59e5"
+      },
+      {
+        "file": "assets/ar/LayeredPattern.js",
+        "previousSha256": "211caa8c788ad03eb0a521cc1d4c7489c775a3b8b0a530ddbdaf493054f93f68",
+        "sha256": "8b35123fc513082cc8de94f1e30b177025285b372875b34e58abb8a134dad479"
+      },
+      {
+        "file": "assets/ar-assets/targets.json",
+        "previousSha256": "3dfc9ab8767ceef9eac191b8351c3e396616fdeb86aed0978118b9a899b9fa18",
+        "sha256": "9c358497bbe74a087cb80f0164699643aff8b639adbfe65277ef76f1e7bb64ab"
+      }
+    ]
+  },
+  "authorizedARTutorialRevision": {
+    "baseCommit": "0f84df52e2e8ae4dd76fd63f166c20509c4c2652",
+    "reason": "User supplied the AR tutorial video. Followed its separate-layer assets and recognition-triggered staggered animation workflow; kept the six motifs aligned on one axis and omitted the tutorial rotation example per the user’s explicit visual requirement.",
+    "files": [
+      {
+        "file": "assets/ar-experience.html",
+        "previousSha256": "003dfc38f46c8fd40498274a68e0b79fc45bf416e8f2a33240afe787d1436f32",
+        "sha256": "2e4b035ab0acdd6f6e85e0032746cf13d362d0d8d1b24c3fe0daf1334a66136c"
+      },
+      {
+        "file": "assets/ar-experience.js",
+        "previousSha256": "d879a5f3e3e98484fc109f82f6220b1495ec659cc24b71a0c13421cfa531bc9e",
+        "sha256": "78baf5f5120ecb402e918fbb0b8e423cdaadf8e3623edfcbb6bfebb9c177489a"
+      },
+      {
+        "file": "assets/ar/LayeredPattern.js",
+        "previousSha256": "211caa8c788ad03eb0a521cc1d4c7489c775a3b8b0a530ddbdaf493054f93f68",
+        "sha256": "8b35123fc513082cc8de94f1e30b177025285b372875b34e58abb8a134dad479"
+      },
+      {
+        "file": "assets/ar-assets/targets.json",
+        "previousSha256": "3dfc9ab8767ceef9eac191b8351c3e396616fdeb86aed0978118b9a899b9fa18",
+        "sha256": "9c358497bbe74a087cb80f0164699643aff8b639adbfe65277ef76f1e7bb64ab"
+      },
+      {
+        "file": "docs/ar-layered/README.md",
+        "previousSha256": "51a273d3680d7ca35e00a2c5b5a25d263254a52aefd73e36105a4b7e216142e7",
+        "sha256": "e6742657749e750adfd5050bedb10384ff1ced2a814e29165e2e4a37a17aebd7"
+      },
+      {
+        "file": "scripts/ar-acceptance.cjs",
+        "previousSha256": "bfd3491afc82f4f9a13e69c07062b0490981068539766c8968d8616bf80a1e6d",
+        "sha256": "dc83f235988688428de51dc61ec52fe5321db7432c4d0967276d214f7b776094"
+      }
+    ]
+  }
+}
