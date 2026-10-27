@@ -21,7 +21,12 @@ export function resolveAsset(path: string): string {
   if (/^https?:\/\//i.test(path)) return path;
 
   // Normalize path by removing leading ./ or /
-  const cleanPath = path.replace(/^(\.\/|\/)/, '');
+  let cleanPath = path.replace(/^(\.\/|\/)/, '');
+
+  // Prepend assets/ if not already present (all static assets reside under assets/)
+  if (!cleanPath.startsWith('assets/')) {
+    cleanPath = 'assets/' + cleanPath;
+  }
 
   if (APP_CONFIG.assetsBaseUrl === '.' || !APP_CONFIG.assetsBaseUrl) {
     return './' + cleanPath;
