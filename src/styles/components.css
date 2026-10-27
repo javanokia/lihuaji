@@ -126,3 +126,158 @@
   position: absolute;
   inset: 0;
 }
+
+/* ==========================================================================
+   Motion System & Micro-Interactions (Modern Web Standards)
+   ========================================================================== */
+
+/* 1. View Transitions API: Seamless Silk-like Page Navigation */
+@media (prefers-reduced-motion: no-preference) {
+  ::view-transition-old(root) {
+    animation: 200ms cubic-bezier(0.4, 0, 1, 1) both lihuajiFadeOut;
+  }
+  ::view-transition-new(root) {
+    animation: 260ms cubic-bezier(0, 0, 0.2, 1) both lihuajiFadeIn;
+  }
+}
+
+@keyframes lihuajiFadeOut {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.992);
+  }
+}
+
+@keyframes lihuajiFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(1.008);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* 2. Interactive Card Elevations & Smooth GPU Transforms */
+.card.link,
+.card-image.link,
+.card-pattern {
+  transition: transform 0.26s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.26s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.2s ease,
+              background-color 0.2s ease;
+  will-change: transform;
+}
+
+.card.link:hover,
+.card-image.link:hover,
+.card-pattern:hover {
+  transform: translateY(-4px);
+  border-color: var(--gold);
+  box-shadow: 0 12px 28px -6px rgba(36, 78, 67, 0.12),
+              0 4px 10px -2px rgba(36, 78, 67, 0.05);
+}
+
+.card.link:active,
+.card-image.link:active,
+.card-pattern:active {
+  transform: translateY(-1px) scale(0.995);
+  box-shadow: 0 6px 14px -3px rgba(36, 78, 67, 0.1);
+  transition-duration: 0.08s;
+}
+
+/* 3. Button Tactile Feedback */
+button:active:not(:disabled),
+.btn:active:not(:disabled) {
+  transform: scale(0.97);
+  transition-duration: 0.08s;
+}
+
+/* 4. Modern Dialog / Modal Transition with @starting-style */
+dialog {
+  transition: opacity 0.24s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.24s cubic-bezier(0.16, 1, 0.3, 1),
+              display 0.24s allow-discrete,
+              overlay 0.24s allow-discrete;
+  transform: scale(0.95) translateY(10px);
+  opacity: 0;
+}
+
+dialog[open] {
+  transform: scale(1) translateY(0);
+  opacity: 1;
+}
+
+@starting-style {
+  dialog[open] {
+    transform: scale(0.95) translateY(10px);
+    opacity: 0;
+  }
+}
+
+dialog::backdrop {
+  transition: opacity 0.24s ease,
+              display 0.24s allow-discrete,
+              overlay 0.24s allow-discrete;
+  opacity: 0;
+}
+
+dialog[open]::backdrop {
+  opacity: 1;
+}
+
+@starting-style {
+  dialog[open]::backdrop {
+    opacity: 0;
+  }
+}
+
+/* 5. Navigation & Chips Smooth Interactions */
+nav a {
+  transition: background-color 0.18s ease, color 0.18s ease, transform 0.18s ease;
+}
+
+nav a:hover {
+  transform: translateX(2px);
+}
+
+.quick-chip {
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1),
+              background-color 0.16s ease,
+              border-color 0.16s ease,
+              color 0.16s ease,
+              box-shadow 0.16s ease;
+}
+
+.quick-chip:hover {
+  transform: translateY(-1px);
+}
+
+.quick-chip:active {
+  transform: scale(0.96);
+}
+
+/* 6. Accessibility: Reduced Motion Override */
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+  .card.link,
+  .card-image.link,
+  .card-pattern,
+  .quick-chip,
+  nav a,
+  button,
+  .btn,
+  dialog {
+    transform: none !important;
+    transition: none !important;
+  }
+}

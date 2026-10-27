@@ -100,8 +100,17 @@ export function useHashRoute() {
   useEffect(() => {
     const onHashChange = () => {
       const nextRoute = parseHash(window.location.hash);
-      setRoute(nextRoute);
-      window.scrollTo(0, 0);
+      const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      if ('startViewTransition' in document && !prefersReducedMotion) {
+        (document as any).startViewTransition(() => {
+          setRoute(nextRoute);
+          window.scrollTo(0, 0);
+        });
+      } else {
+        setRoute(nextRoute);
+        window.scrollTo(0, 0);
+      }
     };
 
     window.addEventListener('hashchange', onHashChange);
