@@ -47,7 +47,7 @@ export const Palette: React.FC = () => {
       />
 
       <div className="palette-intro">
-        <img src={resolveAsset('assets/ivory/silk.webp')} alt="青绿色与米白色丝线概念图" />
+        <img src={resolveAsset('assets/ivory/silk.webp')} alt="青绿色与米白色丝线概念图" loading="lazy" decoding="async" />
         <div>
           <h2>六色之间，留住东方。</h2>
           <p>

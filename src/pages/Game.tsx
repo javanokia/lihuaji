@@ -104,7 +104,7 @@ export const Game: React.FC = () => {
             >
               {isOpen ? (
                 <>
-                  <img src={p.thumbnail} alt={p.title} />
+                  <img src={p.thumbnail} alt={p.title} loading="lazy" decoding="async" />
                   <span>{p.title}</span>
                 </>
               ) : (

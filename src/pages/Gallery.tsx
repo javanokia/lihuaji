@@ -68,7 +68,7 @@ export const Gallery: React.FC<GalleryProps> = ({ initialQuery = '' }) => {
       />
 
       <div className="gallery-heading">
-        <img src={resolveAsset('assets/ivory/garden.webp')} alt="梨花园林概念场景" />
+        <img src={resolveAsset('assets/ivory/garden.webp')} alt="梨花园林概念场景" loading="lazy" decoding="async" />
         <p>
           从眼罩、丝巾到身边的小物，探索传统手艺的当代表达。
           <br />

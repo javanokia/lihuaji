@@ -42,7 +42,25 @@ if(new Set(patterns.map(p=>p.id)).size!==patterns.length)throw Error('Duplicate 
 for(const p of patterns)for(const key of ['image','thumbnail'])if(!p[key].startsWith('assets/')||!fs.existsSync(p[key]))throw Error('Missing or invalid pattern asset: '+p[key]);
 for(const p of products)for(const f of [p.image_path,p.thumbnail_path||p.image_path,...p.gallery,...p.variants.flatMap(v=>[v.photo,v.sticker].filter(Boolean))])if(f.includes('..')||!fs.existsSync('assets/'+f))throw Error('Missing product asset '+f);
 import {execSync} from 'node:child_process';
-for(const f of ['app.js','face.js','index.html'])if(/trycloudflare\.com|127\.0\.0\.1|fetch\(['"]\/api\//.test(fs.readFileSync(f,'utf8')))throw Error('Local service dependency in '+f);
+
+function scanForbiddenKeywords(targetPath) {
+  if (!fs.existsSync(targetPath)) return;
+  const stat = fs.statSync(targetPath);
+  if (stat.isDirectory()) {
+    for (const file of fs.readdirSync(targetPath)) {
+      scanForbiddenKeywords(path.join(targetPath, file));
+    }
+  } else if (/\.(ts|tsx|js|html|css)$/.test(targetPath)) {
+    const content = fs.readFileSync(targetPath, 'utf8');
+    if (/trycloudflare\.com|127\.0\.0\.1|fetch\(['"]\/api\//.test(content)) {
+      throw Error('Local service dependency or forbidden API in ' + targetPath);
+    }
+  }
+}
+
+for (const entry of ['app.js', 'face.js', 'index.html', 'src', 'assets']) {
+  scanForbiddenKeywords(entry);
+}
 console.log('Building React TypeScript SPA with Vite...');
 execSync('npx vite build --outDir _site', {stdio:'inherit'});
 for(const f of ['app.js','style.css','pages.css','face.html','face.js','design-guide.html','.nojekyll','404.html'])if(fs.existsSync(f))fs.copyFileSync(f,path.join('_site',f));

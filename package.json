@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "typecheck": "tsc --noEmit",
     "build": "node scripts/normalize-patterns.mjs && node scripts/seed-database.mjs && node scripts/build.mjs",
     "export:assets": "node scripts/package-assets-repo.mjs",
     "db:normalize": "node scripts/normalize-patterns.mjs && node scripts/seed-database.mjs",

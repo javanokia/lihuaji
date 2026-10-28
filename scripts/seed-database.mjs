@@ -22,7 +22,6 @@ function sqlEscape(val) {
 const lines = [
   '-- Auto-generated SQL seed script for Lihuaji Pattern Database',
   `-- Total records: ${normalized.length}`,
-  '-- Generated at: ' + new Date().toISOString(),
   '',
   'BEGIN TRANSACTION;',
   ''

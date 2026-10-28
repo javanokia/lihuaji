@@ -49,7 +49,7 @@ export const ProductDetail: React.FC<ProductDetailProps> = ({ id }) => {
       />
 
       <div className="split">
-        <img className="image-fit" src={assetPath(p.image_path)} alt={p.title} />
+        <img className="image-fit" src={assetPath(p.image_path)} alt={p.title} loading="lazy" decoding="async" />
         <div className="card">
           <p>{p.description || ''}</p>
           <label>

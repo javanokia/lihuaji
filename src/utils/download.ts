@@ -10,7 +10,7 @@ export function downloadFile(name: string, content: string | Blob, type = 'text/
   setTimeout(() => URL.revokeObjectURL(url), 10000);
 }
 
-export function safeLink(url?: string): string {
+export function safeLink(url?: string | null): string {
   if (!url) return '#';
   try {
     const u = new URL(url);

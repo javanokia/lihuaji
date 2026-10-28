@@ -31,14 +31,26 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg,webp,woff2}'],
+        globIgnores: ['**/vendor-three*.js', '**/assets/vendor/three/**'],
         runtimeCaching: [
           {
-            urlPattern: /.*\/content\/.*\.json/,
+            urlPattern: /.*\/vendor-three.*\.js/,
             handler: 'CacheFirst',
+            options: {
+              cacheName: 'vendor-three-cache',
+              expiration: {
+                maxEntries: 5,
+                maxAgeSeconds: 60 * 60 * 24 * 30, // 30 days
+              },
+            },
+          },
+          {
+            urlPattern: /.*\/content\/.*\.json/,
+            handler: 'StaleWhileRevalidate',
             options: {
               cacheName: 'content-json-cache',
               expiration: {
-                maxEntries: 20,
+                maxEntries: 30,
                 maxAgeSeconds: 60 * 60 * 24 * 7, // 7 days
               },
             },

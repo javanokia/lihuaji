@@ -12,7 +12,7 @@ export const Exhibit: React.FC = () => {
       />
 
       <article className="exhibit-layout">
-        <img src={resolveAsset('assets/ivory/embroidery.webp')} alt="梨花苏绣针脚概念图" />
+        <img src={resolveAsset('assets/ivory/embroidery.webp')} alt="梨花苏绣针脚概念图" loading="lazy" decoding="async" />
         <div>
           <span className="english">INSPIRATION ARCHIVE · No.001</span>
           <h2>把春天，留在丝线里。</h2>
@@ -41,7 +41,7 @@ export const Exhibit: React.FC = () => {
             进入针法课堂 <Icon name="arrow" />
           </span>
         </div>
-        <img src={resolveAsset('assets/ivory/silk.webp')} alt="丝线材质概念图" />
+        <img src={resolveAsset('assets/ivory/silk.webp')} alt="丝线材质概念图" loading="lazy" decoding="async" />
       </a>
     </>
   );

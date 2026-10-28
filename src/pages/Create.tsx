@@ -92,19 +92,6 @@ export const Create: React.FC<CreateProps> = ({ id = '' }) => {
 
       const d = await generate(source, opt);
 
-      if (storySession?.selected) {
-        storySession.finalOutput = {
-          type: '数字工艺参考稿',
-          options: opt,
-          score: d.score,
-          metrics: d.metrics,
-          svg: d.svg,
-          csv: pathCSV(d),
-        };
-        const { recordAction } = await import('../assets-proxy/story-session.js');
-        recordAction('embroidery', { options: opt, score: d.score, stitches: d.paths.length });
-      }
-
       if (sourceRecord) {
         d.archiveSource = {
           title: sourceRecord.title,
@@ -117,6 +104,20 @@ export const Create: React.FC<CreateProps> = ({ id = '' }) => {
       }
 
       d.csv = pathCSV(d);
+
+      if (storySession?.selected) {
+        storySession.finalOutput = {
+          type: '数字工艺参考稿',
+          options: opt,
+          score: d.score,
+          metrics: d.metrics,
+          svg: d.svg,
+          csv: d.csv,
+        };
+        const { recordAction } = await import('../assets-proxy/story-session.js');
+        recordAction('embroidery', { options: opt, score: d.score, stitches: d.paths.length });
+      }
+
       setResult(d);
       setStatusText('已完成，结果仅在当前页面内。');
     } catch (err: any) {
